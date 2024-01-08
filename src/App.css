@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 8px;
+  margin-right: 5px;
+  width: 300px;
+}
+
+.task {
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+  width: 350px;
+}
+
+.task span {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+}
+
+.task-buttons button:first-child {
+  margin-left: 0;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: rgb(227, 37, 37) !important;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: rgb(255, 0, 0) !important;
+}
+
+.edit-btn {
+  background-color: rgb(19, 108, 14) !important;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background-color: rgb(51, 162, 45) !important;
+}
+
+.task-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+span {
+
+  overflow-x: auto;
+}
+
+.task-list {
+  height: 80vh;
+  overflow: auto;
+}
